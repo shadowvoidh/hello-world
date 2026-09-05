@@ -30,8 +30,13 @@ Abaixo estão as linguagens e ferramentas que venho praticando e registrando nes
 | **Python** |   **[Readme](assets/python/README.md)**
 | **Rust** |   **[Readme](assets/rust/README.md)**
 <br><br>
+| **MySQL** |   **[Readme](assets/mydb/README.md)**
+| **SQlite** |   **[Readme](assets/dblite/README.md)**
+| **PostgreSQL** |   **[Readme](assets/pdb/README.md)**
+<br><br>
 | **Git & GitHub** |   **[Readme](assets/git/README.md)**
 | **IAs** |   **[Readme](assets/ia/README.md)**
+| **Docker** |   **[Readme](assets/docker/README.md)**
 <br><br>
 | **🐧Linux** |   **[Readme](assets/linux/README.md)**
 | **🪟 Windows** |   **[Readme](assets/win/README.md)**
