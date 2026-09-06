@@ -2,7 +2,7 @@
 <img src="../../img/Tailwind.webp" height="50" widht="50">
 </div>
 
-### Tailwind CSS
+### 🌊 Estudos de Programação de Tailwind CSS
 
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
