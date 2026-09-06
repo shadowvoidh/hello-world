@@ -10,7 +10,7 @@ Este repositório contém anotações, exemplos de código e boas práticas sobr
 
 ## 📑 Módulos de Estudo
 
-<center>
+<div align="center">
 <details>
 <summary><b><img src="../../img/HTML.webp" height="25" widht="25"> HTML5 </b></summary>
 
@@ -230,4 +230,4 @@ Adapta o layout para diferentes tamanhos de tela (Mobile-First).
 
 </details>
 
-</center>
+</div>
