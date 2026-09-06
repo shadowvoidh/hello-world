@@ -9,6 +9,7 @@
 Este repositório contém anotações, exemplos de componentes e padrões práticos sobre **Tailwind CSS**, o framework CSS utilitário (*Utility-First*).
 
 ---
+<div align="center">
 
 ## 📑 Módulos de Estudo
 
@@ -250,3 +251,5 @@ Utilize colchetes `[...]` quando precisar de uma medida ou cor exata fora do tem
 | `box-shadow: ...` | `shadow-md` | Adiciona sombra suave ao redor do elemento | `<article class="shadow-md">` |
 
 </details>
+
+</div>
