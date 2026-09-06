@@ -10,10 +10,10 @@ Este repositório contém anotações, exemplos de código e boas práticas sobr
 
 ## 📑 Módulos de Estudo
 
-
+<center>
 <details>
 <summary><b><img src="../../img/HTML.webp" height="25" widht="25"> HTML5 </b></summary>
-
+</center>
 <br>
 
 O HTML (HyperText Markup Language) é a linguagem de marcação responsável pela estrutura e conteúdo de uma página web.
@@ -51,6 +51,7 @@ A semântica melhora a acessibilidade e o SEO (otimização para motores de busc
 | `<button>` | Cria um botão clicável para ações ou envio de formulários |
 | `<label>` | Define um rótulo/legenda de texto para um elemento de formulário (como um `<input>`) |
 | `<video>` | Incorpora e exibe um reprodutor de vídeo na página |
+| `<center>` | Centraliza Horizontalmente todo o seu conteúdo da pagina |
 
 
 
@@ -84,10 +85,10 @@ A semântica melhora a acessibilidade e o SEO (otimização para motores de busc
 
 
 </details>
-
+<center>
 <details>
 <summary><b><img src="../../img/css.webp" height="25" widht="25"> CSS3 </b></summary>
-
+</center>
 ### O CSS (Cascading Style Sheets) é responsável pela apresentação visual, estilização, cores, tipografia e layout responsivo da página.
 
 ### 1. Seletores, Especificidade e Variáveis
@@ -228,3 +229,4 @@ Adapta o layout para diferentes tamanhos de tela (Mobile-First).
 | `box-shadow` | Adiciona efeitos de sombra ao redor do elemento | `box-shadow: 0 4px 6px rgba(0,0,0,0.1);` |
 
 </details>
+
