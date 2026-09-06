@@ -16,7 +16,7 @@ Este guia é um material de estudo focado na aplicação prática e teórica dos
 8. [6. Métodos de Classe (`@classmethod`) e Estáticos (`@staticmethod`)](#6-métodos-de-classe-e-estáticos)
 9. [7. Classes Abstratas (`abc`)](#7-classes-abstratas)
 10. [ Resumo dos Recursos](#-resumo-dos-recursos)
-11. [8. Diagramas UML Nativos (com Mermaid.js)](#8-diagramas-uml-nativos-com-mermaidjs)
+11. [8. Diagramas UML Nativos (com Mermaid.js)](#8-diagramas)
 12. [9. Tópicos Modernos de POO em Python](#9-tópicos-modernos-de-poo-em-python)
 
 ---
