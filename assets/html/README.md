@@ -12,7 +12,7 @@ Este repositório contém anotações, exemplos de código e boas práticas sobr
 
 <div align="center">
 <details>
-<summary><b><img src="../../img/HTML.webp" height="25" widht="25"> HTML5 </b></summary>
+<summary><b><img src="../../img/HTML.webp" height="50" widht="50"> HTML5 </b></summary>
 
 <br>
 
@@ -87,7 +87,7 @@ A semântica melhora a acessibilidade e o SEO (otimização para motores de busc
 </details>
 
 <details>
-<summary><b><img src="../../img/css.webp" height="25" widht="25"> CSS3 </b></summary>
+<summary><b><img src="../../img/css.webp" height="50" widht="50"> CSS3 </b></summary>
 
 ### O CSS (Cascading Style Sheets) é responsável pela apresentação visual, estilização, cores, tipografia e layout responsivo da página.
 

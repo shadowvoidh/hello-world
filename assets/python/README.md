@@ -1,3 +1,6 @@
+<div align="center">
+<img src="../../img/python.webp" height="50" width="50">
+</div>
 # 🐍 Estudos de Programação Orientada a Objetos (POO) em Python
 
 Este guia é um material de estudo focado na aplicação prática e teórica dos conceitos de **Programação Orientada a Objetos** em Python.
