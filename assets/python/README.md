@@ -1,6 +1,29 @@
-## 🛠️ 1. Como Instalar o Python
+# 🐍 Estudos de Programação Orientada a Objetos (POO) em Python
 
-Para executar os arquivos deste repositório, é necessário ter o Python instalado no seu computador.
+Este guia é um material de estudo focado na aplicação prática e teórica dos conceitos de **Programação Orientada a Objetos** em Python.
+
+---
+
+## 📑 Sumário de Conteúdos
+
+1. [Como Instalar e Executar o Python](#-como-instalar-e-executar-o-python)
+2. [Conceitos Fundamentais](#-conceitos-fundamentais)
+3. [1. Classe Básica e Construtor (`__init__`)](#1-classe-básica-e-construtor-__init__)
+4. [2. Métodos Mágicos / Dunder (`__str__`, `__len__`, `__eq__`)](#2-métodos-mágicos--dunder-methods)
+5. [3. Herança e `super()`](#3-herança-e-super)
+6. [4. Polimorfismo](#4-polimorfismo)
+7. [5. Encapsulamento e Propriedades (`@property`)](#5-encapsulamento-e-propriedades)
+8. [6. Métodos de Classe (`@classmethod`) e Estáticos (`@staticmethod`)](#6-métodos-de-classe-e-estáticos)
+9. [7. Classes Abstratas (`abc`)](#7-classes-abstratas)
+10. [ Resumo dos Recursos](#-resumo-dos-recursos)
+11. [8. Diagramas UML Nativos (com Mermaid.js)](#8-diagramas-uml-nativos-com-mermaidjs)
+12. [9. Tópicos Modernos de POO em Python](#9-tópicos-modernos-de-poo-em-python)
+
+---
+
+## 🛠️ Como Instalar e Executar o Python
+
+Para executar os scripts deste repositório, é necessário ter o Python instalado no seu computador (versão 3.8 ou superior recomendada).
 
 ### Windows
 1. Acesse o site oficial: [python.org/downloads](https://www.python.org/downloads/).
@@ -12,35 +35,30 @@ Abra o terminal e execute os comandos:
 ```bash
 sudo apt update
 sudo apt install python3 python3-pip
+
+```
+##  Como Executar os Scripts
+No terminal, navegue até a pasta do repositório e execute o arquivo desejado:
+
+```Bash
+# No Windows
+python arquivo.py
+
+# No Linux ou macOS
+python3 arquivo.py
 ```
 
-# Executar arquivo
-python arquivo.py
-# ou em sistemas Linux/macOS
-python3 arquivo.py
-
-
-## 📌 O que são Classes e Objetos?
+## 📌 Conceitos Fundamentais
 
 - **Classe:** É o "molde" ou blueprint que define a estrutura de dados e os comportamentos que um determinado conceito deve ter.
 - **Objeto (Instância):** É um elemento real criado a partir da classe, contendo seus próprios valores para os atributos definidos.
 
----
+
 ## O Método __init__()
 Todas as classes possuem uma função embutida chamada __init__(), que é executada automaticamente quando a classe é instanciada. Ela serve para inicializar os atributos do objeto.
 
 ## O Parâmetro self
 O parâmetro self é uma referência à instância atual da classe. Ele é utilizado para acessar variáveis e métodos que pertencem àquela classe específica.
-
-## 📑 Sumário de Conteúdos
-
-1. [Classe Básica e Construtor (`__init__`)](#1-classe-básica-e-construtor-__init__)
-2. [Métodos Mágicos / Dunder (`__str__`, `__len__`, `__eq__`)](#2-métodos-mágicos--dunder-methods)
-3. [Herança e `super()`](#3-herança-e-super)
-4. [Polimorfismo](#4-polimorfismo)
-5. [Encapsulamento e Propriedades (`@property`)](#5-encapsulamento-e-propriedades)
-6. [Métodos de Classe (`@classmethod`) e Estáticos (`@staticmethod`)](#6-métodos-de-classe-e-estáticos)
-7. [Classes Abstratas (`abc`)](#7-classes-abstratas)
 
 ---
 
@@ -291,3 +309,143 @@ print(f"Perímetro: {r.calcular_perimetro()}") # 16.0
 | **Método de Classe** | `@classmethod` | Manipula dados da classe / Construtores alternativos |
 | **Método Estático** | `@staticmethod` | Funções utilitárias sem dependência de estado |
 | **Classe Abstrata** | `ABC` / `@abstractmethod` | Garante uma estrutura obrigatória em subclasses |
+
+---
+
+## 8. Diagramas 
+
+
+### Exemplo 1: Herança e Interface Abstrata
+```mermaid
+classDiagram
+    class FormaGeometrica {
+        <<Abstract>>
+        +calcular_area()* float
+        +calcular_perimetro()* float
+    }
+
+    class Retangulo {
+        +float largura
+        +float altura
+        +calcular_area() float
+        +calcular_perimetro() float
+    }
+
+    FormaGeometrica <|-- Retangulo : Implementa
+
+```
+## Exemplo 2: Relação de Composição
+```mermaid
+classDiagram
+    class Motor {
+        +int cv
+        +bool ligado
+        +ligar() void
+    }
+
+    class Carro {
+        +String marca
+        +String modelo
+        +Motor motor
+        +ligar_carro() void
+    }
+
+    Carro *-- Motor : Composição (Tem-um)
+ ```
+
+---
+
+
+## 9. Tópicos Modernos de POO em Python
+## 9.1 Dataclasses (dataclasses)
+Introduzidas no Python 3.7, as @dataclass eliminam o código repetitivo (boilerplate) necessário para criar classes focadas em armazenar dados, gerando automaticamente os métodos __init__(), __repr__(), __eq__() e outros.
+
+```Python
+from dataclasses import dataclass, field
+
+@dataclass
+class ItemPedido:
+    nome: str
+    preco: float
+    quantidade: int = 1  # Valor padrão
+
+    # Método para calcular o valor total do item
+    def total(self) -> float:
+        return self.preco * self.quantidade
+
+
+item1 = ItemPedido("Teclado Mecânico", 250.0, 2)
+item2 = ItemPedido("Mousepad", 50.0)
+
+print(item1)          # Retorno automático formatado: ItemPedido(nome='Teclado Mecânico', preco=250.0, quantidade=2)
+print(item1.total())  # 500.0
+print(item1 == item2) # False (compara os valores dos atributos automaticamente)
+```
+
+## 9.2 Exceções Customizadas
+Criar classes de exceções próprias herdando da classe base Exception é uma boa prática para domínios de negócios específicos, tornando a tratativa de erros mais clara e profissional.
+
+```Python
+# Classe de exceção personalizada
+class SaldoInsuficienteError(Exception):
+    """Exceção lançada quando uma operação excede o saldo disponível."""
+    def __init__(self, saldo_atual: float, valor_saque: float):
+        self.saldo_atual = saldo_atual
+        self.valor_saque = valor_saque
+        super().__init__(f"Tentativa de sacar R$ {valor_saque:.2f}, mas o saldo atual é de apenas R$ {saldo_atual:.2f}.")
+
+
+class ContaCorrente:
+    def __init__(self, saldo: float):
+        self.saldo = saldo
+
+    def sacar(self, valor: float):
+        if valor > self.saldo:
+            raise SaldoInsuficienteError(self.saldo, valor)
+        self.saldo -= valor
+        print(f"Saque de R$ {valor:.2f} realizado com sucesso!")
+
+
+conta = ContaCorrente(100.0)
+
+try:
+    conta.sacar(250.0)
+except SaldoInsuficienteError as e:
+    print(f"Erro na Operação: {e}")
+```
+## 9.3 Composição vs. Herança
+Um dos princípios do design de software orientado a objetos é "Preferir composição a herança".
+
+Herança: Define uma relação de "É UM" (ex: Gerente é um Funcionario).
+
+Composição: Define uma relação de "TEM UM" (ex: Carro tem um Motor).
+
+A composição evita hierarquias de herança rígidas e difíceis de manter.
+
+```Python
+class Motor:
+    def __init__(self, potencia_cv: int):
+        self.potencia_cv = potencia_cv
+        self.ligado = False
+
+    def ligar(self):
+        self.ligado = True
+
+    def desligar(self):
+        self.ligado = False
+
+
+class Carro:
+    def __init__(self, modelo: str, potencia_motor: int):
+        self.modelo = modelo
+        # Composição: O objeto Carro contém um objeto Motor
+        self.motor = Motor(potencia_motor)
+
+    def dar_partida(self):
+        self.motor.ligar()
+        print(f"O {self.modelo} ligou o motor de {self.motor.potencia_cv} CV!")
+
+
+meu_carro = Carro("Golf GTI", 230)
+meu_carro.dar_partida() # O Golf GTI ligou o motor de 230 CV!
+```
