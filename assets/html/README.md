@@ -12,7 +12,7 @@ Este repositório contém anotações, exemplos de código e boas práticas sobr
 
 <div align="center">
 <details>
-<summary><b><img src="../../img/html5.svg" height="50" widht="50"> HTML5 </b></summary>
+<summary><b><img src="../../img/html.svg" height="50" widht="50"> HTML5 </b></summary>
 
 <br>
 

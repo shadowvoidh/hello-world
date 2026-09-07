@@ -1,5 +1,5 @@
 <div align="center">
-<img src="../../img/Tailwind.webp" height="50" widht="50">
+<img src="../../img/tailwind.svg" height="50" widht="50">
 </div>
 
 ### 🌊 Estudos de Programação de Tailwind CSS
