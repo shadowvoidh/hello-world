@@ -1,5 +1,5 @@
 <div align="center">
-<img src="../../img/js.webp" height="50" width="50">
+<img src="../../img/js.svg" height="50" width="50">
 </div>
 
 ### 🏵 Estudos de Programação de JavaScript (ES6+)
