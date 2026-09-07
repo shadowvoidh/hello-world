@@ -1,5 +1,5 @@
 <div align="center">
-<img src="../../img/python.svg" height="50" width="50">
+<img src="../../img/python.svg" height="70" width="70">
 </div>
 
 ### 🐍 Estudos de Programação Orientada a Objetos (POO) em Python
