@@ -14,34 +14,39 @@ Abaixo estão as linguagens e ferramentas que venho praticando e registrando nes
 
 | Linguagem / Tool | Readme |
 | :--- | :--- |
-| **HTML5 & CSS3** | **[Readme](assets/html/README.md)**
-| **Tailwind Css** | **[Readme](assets/tailwindcss/README.md)**
-| **JavaScript** |  **[Readme](assets/js/README.md)**
-| **TypeScript** |   **[Readme](assets/ts/README.md)**
-| **React** |  **[Readme](assets/react/README.md)**
-| **Node.js** |  **[Readme](assets/node.js/README.md)**
-| **Next.js** |  **[Readme](assets/next.js/README.md)**
-| **Vue.js** |   **[Readme](assets/veu.js/README.md)**
-| **Go** |       **[Readme](assets/go/README.md)**
-| **PHP** |      **[Readme](assets/php/README.md)**
-| **C** |       **[Readme](assets/c/README.md)**
-| **C++** |    **[Readme](assets/cpp/README.md)**
-| **C#** |    **[Readme](assets/cs/README.md)**
-| **Python** |   **[Readme](assets/python/README.md)**
-| **Rust** |   **[Readme](assets/rust/README.md)**
-<br><br>
-| **MySQL** |   **[Readme](assets/mydb/README.md)**
-| **SQlite** |   **[Readme](assets/dblite/README.md)**
-| **PostgreSQL** |   **[Readme](assets/pdb/README.md)**
-<br><br>
-| **Git & GitHub** |   **[Readme](assets/git/README.md)**
-| **IAs** |   **[Readme](assets/ia/README.md)**
-| **Docker** |   **[Readme](assets/docker/README.md)**
-<br><br>
-| **🐧Linux** |   **[Readme](assets/linux/README.md)**
-| **🪟 Windows** |   **[Readme](assets/win/README.md)**
-| **🍎MacOS** |   **[Readme](assets/mac/README.md)**
-
+| **Linguagens:** | **[Folder](src/linguagem/)** |
+| 🌐 **HTML5 & CSS3** | **[Readme](src/linguagem/html/README.md)** |
+| 🟨 **JavaScript** | **[Readme](src/linguagem/js/README.md)** |
+| 💙 **TypeScript** | **[Readme](src/linguagem/ts/README.md)** |
+| 🔵 **Go** | **[Readme](src/linguagem/go/README.md)** |
+| 🐘 **PHP** | **[Readme](src/linguagem/php/README.md)** |
+| ⚙️ **C** | **[Readme](src/linguagem/c/README.md)** |
+| 🔷 **C++** | **[Readme](src/linguagem/cpp/README.md)** |
+| 🟣 **C#** | **[Readme](src/linguagem/cs/README.md)** |
+| 🐍 **Python** | **[Readme](src/linguagem/python/README.md)** |
+| 🦀 **Rust** | **[Readme](src/linguagem/rust/README.md)** |
+| ☕ **Java** | **[Readme](src/linguagem/java/README.md)** |
+| **Frameworks:** | **[Folder](src/frameworks/)** |
+| 🅰️ **Angular** | **[Readme](src/frameworks/angular/README.md)** |
+| ⚛️ **React** | **[Readme](src/frameworks/react/README.md)** |
+| 🎨 **Tailwind CSS** | **[Readme](src/frameworks/tailwindcss/README.md)** |
+| 🟢 **Node.js** | **[Readme](src/frameworks/node.js/README.md)** |
+| 🖤 **Next.js** | **[Readme](src/frameworks/next.js/README.md)** |
+| 💚 **Vue.js** | **[Readme](src/frameworks/vue.js/README.md)** |
+| **Banco de Dados:** | **[Folder](src/db/)** |
+| 🐬 **MySQL** | **[Readme](src/db/mydb/README.md)** |
+| 🪶 **SQLite** | **[Readme](src/db/dblite/README.md)** |
+| 🐘 **PostgreSQL** | **[Readme](src/db/pdb/README.md)** |
+| **Tools:** | **[Folder](src/tools/)** |
+| 🐙 **Git & GitHub** | **[Readme](src/tools/git/README.md)** |
+| 🐚 **Terminal & Shell Script** | **[Readme](src/tools/terminal/README.md)** |
+| 🤖 **IAs** | **[Readme](src/tools/ia/README.md)** |
+| 🐳 **Docker** | **[Readme](src/tools/docker/README.md)** |
+| **Sistema Operacional:** | **[Folder](src/os/)** |
+| 🐧 **Linux** | **[Readme](src/os/linux/README.md)** |
+| 🪟 **Windows** | **[Readme](src/os/win/README.md)** |
+| 🍎 **MacOS** | **[Readme](src/os/mac/README.md)** |
+| 📱 **Android** | **[Readme](src/os/android/README.md)** |
 ---
 
 
