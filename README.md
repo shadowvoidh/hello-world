@@ -3,14 +3,21 @@
 Repositório dedicado ao armazenamento de exercícios, anotações, realizados durante minha jornada de aprendizado em programação.
 
 
----
+
 
 > [!WARNING]
 > WARNING: This repository is available only in Brazilian Portuguese.
 
+
+---
+
+<p align="center">
+<img src="assets/img/assetsREADME.png" width="100%" height="450px" alt="Marshadow GIF" />
+</p>
+
 <div align="center">
   
-### 📌 Tecnologias & Linguagens
+### 📌Tecnologias & Linguagens
 
 Abaixo estão as linguagens e ferramentas que venho praticando e registrando neste repositório:
 
