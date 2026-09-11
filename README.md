@@ -8,7 +8,9 @@ Repositório dedicado ao armazenamento de exercícios, anotações, realizados d
 > [!WARNING]
 > WARNING: This repository is available only in Brazilian Portuguese.
 
-## 📌 Tecnologias & Linguagens
+<div align="center">
+  
+### 📌 Tecnologias & Linguagens
 
 Abaixo estão as linguagens e ferramentas que venho praticando e registrando neste repositório:
 
@@ -26,6 +28,7 @@ Abaixo estão as linguagens e ferramentas que venho praticando e registrando nes
 | 🐍 **Python** | **[Readme](src/linguagem/python/README.md)** |
 | 🦀 **Rust** | **[Readme](src/linguagem/rust/README.md)** |
 | ☕ **Java** | **[Readme](src/linguagem/java/README.md)** |
+<br><br>
 | **Frameworks:** | **[Folder](src/frameworks/)** |
 | 🅰️ **Angular** | **[Readme](src/frameworks/angular/README.md)** |
 | ⚛️ **React** | **[Readme](src/frameworks/react/README.md)** |
@@ -33,21 +36,28 @@ Abaixo estão as linguagens e ferramentas que venho praticando e registrando nes
 | 🟢 **Node.js** | **[Readme](src/frameworks/node.js/README.md)** |
 | 🖤 **Next.js** | **[Readme](src/frameworks/next.js/README.md)** |
 | 💚 **Vue.js** | **[Readme](src/frameworks/vue.js/README.md)** |
+<br><br>
 | **Banco de Dados:** | **[Folder](src/db/)** |
 | 🐬 **MySQL** | **[Readme](src/db/mydb/README.md)** |
 | 🪶 **SQLite** | **[Readme](src/db/dblite/README.md)** |
 | 🐘 **PostgreSQL** | **[Readme](src/db/pdb/README.md)** |
+<br><br>
 | **Tools:** | **[Folder](src/tools/)** |
 | 🐙 **Git & GitHub** | **[Readme](src/tools/git/README.md)** |
 | 🐚 **Terminal & Shell Script** | **[Readme](src/tools/terminal/README.md)** |
 | 🤖 **IAs** | **[Readme](src/tools/ia/README.md)** |
 | 🐳 **Docker** | **[Readme](src/tools/docker/README.md)** |
+<br><br>
 | **Sistema Operacional:** | **[Folder](src/os/)** |
 | 🐧 **Linux** | **[Readme](src/os/linux/README.md)** |
 | 🪟 **Windows** | **[Readme](src/os/win/README.md)** |
 | 🍎 **MacOS** | **[Readme](src/os/mac/README.md)** |
 | 📱 **Android** | **[Readme](src/os/android/README.md)** |
+
+</div>
+
 ---
+
 
 
 ## 🌘Autor
